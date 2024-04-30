@@ -61,7 +61,7 @@ public class Patient {
         return tabDmd;
     }
 
-    public void addPatient(DemandeRV dmd) {
+    public void addDemande(DemandeRV dmd) {
         if(n<taille){
             tabDmd[n++]=dmd;
         }

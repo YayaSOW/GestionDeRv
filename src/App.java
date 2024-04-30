@@ -77,7 +77,7 @@ public class App {
         if (pt!=null) {
             DemandeRV dmd = saisiRv();
             dmd.setPt(pt);
-            pt.addPatient(dmd);
+            pt.addDemande(dmd);
             svcDmd.enregistrerDmd(dmd);
         }else{
             System.out.println("Client introuvable");
